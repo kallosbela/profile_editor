@@ -1,0 +1,47 @@
+/* --- start of CSS reset --- */
+
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: none;
+	box-sizing: border-box;
+	background: transparent;
+	font-family: inherit;
+}
+
+a {
+	text-decoration: none;
+}
+
+a img {
+	border: none;
+}
+
+button,
+a {
+	cursor: pointer;
+	color: inherit;
+	border: 1pt solid green;
+}
+
+textarea {
+	resize: none;
+}
+
+button,
+textarea,
+select {
+	appearance: none !important;
+	border-radius: 0;
+}
+
+/* --- end of CSS reset --- */
+
+input {
+	border: 1pt solid blue;
+}
+
+body {
+	margin: 1em;
+}
